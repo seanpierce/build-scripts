@@ -1,7 +1,7 @@
-from .functions import build_app, build_app_pro, build_app_auth
+import functions as f
 
 
 if __name__ == "__main__":
-    build_app()
-    build_app_pro()
-    build_app_auth()
+    f.build_app()
+    f.build_app_pro()
+    f.build_app_auth()
